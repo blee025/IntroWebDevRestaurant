@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+    Name: Bee Lee
+	Date Created: 7.23.19
+	Most recent revision: 7.23.19
+-->
+<html lang="en">
+    <head>
+        <title>Contact Us</title>
+    </head>
+
+    <body>
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+
+        <nav>
+            <p><a href="main.html">Home</a></p>
+            <p><a href="menu.html">Menu</a></p>
+            <p><a href="contactus.html">Contact Us</a></p>
+            <div class="clear:float"></div>
+        </nav>
+
+        <form action="submit.html" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br />
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br />
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone"><br />
+            <label for="inquiry">Reason for Inquiry:</label>
+            <select id="inquiry" name="inquiry">
+                <option value="Catering">Catering</option>
+                <option value="Privateparty">Private Party</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Other">Other</option>
+            </select><br />
+            <label for="info">Additional Information:</label>
+            <textarea id="info" name="info"></textarea><br />
+            <legend>Have you been to the The Silk Scarf?</legend>
+            <input type="radio" id="choice2" name="questionaire" value="no">
+            <label for="choice2">No</label>
+            <input type="radio" id="choice1" name="questionaire" value="yes">
+            <label for="choice1">Yes</label><br />
+
+            <legend>Best days to contact you:</legend>
+            <input type="checkbox" id="monday" name="availability" value="monday">
+            <label for="monday">Monday</label>
+            <input type="checkbox" id="tuesday" name="availability" value="tuesday">
+            <label for="tuesday">Tuesday</label>
+            <input type="checkbox" id="wednesday" name="availability" value="wednesday">
+            <label for="wednesday">Wednesday</label>
+            <input type="checkbox" id="thursday" name="availability" value="thursday">
+            <label for="thursday">Thursday</label>
+            <input type="checkbox" id="friday" name="availability" value="friday">
+            <label for="friday">Friday</label><br />
+            <input type="submit" value="Send Request">
+        <br />
+        <br />
+        <br />
+        <hr />
+        <footer>
+        <p>123 First Street, Minneapolis, MN 55555</p>
+        <p>(612)-123-4567</p>
+        </footer>
+    </body>
+</html>

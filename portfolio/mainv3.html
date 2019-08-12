@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--
+	Name: Bee Lee
+	Date Created: 8.6.19
+	Most recent revision: 8.11.19
+
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink=to-fit=no">
+
+        <title>The Silk Scarf</title>
+
+        <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+
+        <!-- Bootstrap CDN copied from URL https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <style>
+            body {
+                background-color: #FFFF66;
+                color: red
+            }
+
+
+            $('.carousel').carousel()
+
+
+            .hero img {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .storedetails {
+                width: 400px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+
+        </style>
+
+
+    </head>
+
+    <body class="mainbody">
+
+        <header class="storefont">
+            <h1>The Silk Scarf</h1>
+        </header>
+
+        <nav>
+            <button class="btn badge-pill"><i class="fa fa-home"></i><a href="mainv3.html">Home</a></button>
+            <a class="btn badge-pill" href="menuv3.html">Menu</a>
+            <a class="btn badge-pill" href="contactusv3.html">Contact Us</a>
+        </nav>
+
+        <noscript>
+            <span style="border: 1px solid red; padding 10px">WARNING: JavaScript is disabled! Site is best viewed with JavaScript enabled.</span>
+        </noscript>
+
+        <div class="container-fluid carouselbg">
+            <div id="myCarousel" class="carousel header2" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div id="newLocation" class="jumbotron">
+                            <h2 class="text-center">We're opening a new location!</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div id="newMenu" class="jumbotron">
+                            <h2 class="text-center">We're rolling out our seasonal menu, with special options for this season.</h2>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div id="newDrink" class="jumbotron">
+                            <h2 class="text-center">The Drink of the Month is SG Special Brew.</h2>
+                        </div>
+                    </div>
+                </div>
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+
+            <div class="row hero">
+                <div class="col-sm-12">  <!-- div for picture -->
+                    <img src="images/store.jpg" alt="The Silk Scarf storefront." style="width: 400px; height: 150px" />
+                </div>
+
+                <div class="col-sm-12 style=text-align: justify;width: 400px;">    <!-- div for text -->
+                    <p class="storedetails">The Silk Scarf aims to provide the neighborhood of Minneapolis a new take on spices and flavors of South-East Asia cuisine. We cook with only the freshest ingredients straight from farms located right here in Minnesota. If you’re craving something spicy, come try our Papaya Salad with extra hot Thai chili peppers.</p>
+                </div>
+            </div> <!-- End of .row div -->
+
+            <hr />
+            <footer>
+                <p class="text-center">123 First Street, Minneapolis, MN 55555</p>
+                <p class="text-center">(612)-123-4567</p>
+                <hr />
+            </footer>
+        </div>
+
+        <!-- Javascript CDN copied from URL https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    </body>
+</html>

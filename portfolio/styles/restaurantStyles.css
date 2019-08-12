@@ -1,0 +1,90 @@
+/*
+Creator: Bee Lee
+Date created: 8.6.19
+Date last modified: 8.6.19
+*/
+
+header, footer {
+    background-color: #5D001E;
+    color: #AFD275;
+    height: 100px;
+    text-align: center;
+    padding: 30px 10px 20px 10px;
+}
+
+/*body {
+    background-color: #ADD8E6;
+    font-family: arial, helvetica, sans-serif;
+    color: #ADD8E6;
+    max-width: 900px;
+    margin: 0 auto;*/
+
+
+nav {
+    border-top: thin #5b7d87 solid;
+    border-bottom: thin #5b7d87 solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+nav .btn {
+    background-color: #5b7d87;
+    color: #fef9ff;
+}
+nav .btn:hover {
+    font-weight: bold;
+}
+
+.clear-float {
+	clear:both;
+}
+
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+textarea {
+  width: 200px;
+  height: 120px;
+}
+
+.mainbody {
+    padding: 0 20% 0 20%;
+    background-color: #EDC7B7;
+    color: #501B1D;
+}
+
+.menubody {
+    padding: 0 20% 0 20%;
+    background-color: #E3AFBC;
+    color: #5D001E;
+}
+
+.hero img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    background-color: #FFFF66;
+    color: red
+}
+
+.quicklinks {
+    width: 100%;
+}
+
+Header {
+    font-family: Sans-serif, arial;
+}

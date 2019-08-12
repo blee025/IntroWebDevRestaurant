@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<!--
+    Name: Bee Lee
+	Date Created: 7.23.19
+	Most recent revision: 7.23.19
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink=to-fit=no">
+
+        <title>Menu</title>
+
+        <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+
+        <style>
+
+        </style>
+
+        <!-- Bootstrap CDN copied from URL https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    </head>
+
+    <body>
+        <header>
+            <h1>The Silk Scarf</h1>
+        </header>
+
+        <nav>
+            <a class="btn badge-pill" href="main.html">Home</a>
+            <a class="btn badge-pill" href="menu.html">Menu</a>
+            <a class="btn badge-pill" href="contactus.html">Contact Us</a>
+        </nav>
+
+        <form action="submit.html" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br />
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email"><br />
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone"><br />
+            <label for="inquiry">Reason for Inquiry:</label>
+            <select id="inquiry" name="inquiry">
+                <option value="Catering">Catering</option>
+                <option value="Privateparty">Private Party</option>
+                <option value="Feedback">Feedback</option>
+                <option value="Other">Other</option>
+            </select>
+            <br />
+            <label for="info">Additional Information:</label>
+            <textarea id="info" name="info"></textarea><br />
+            <legend>Have you been to the restaurant:</legend>
+            <input type="radio" id="choice2" name="questionaire" value="no">
+            <label for="choice2">No</label>
+            <input type="radio" id="choice1" name="questionaire" value="yes">
+            <label for="choice1">Yes</label><br />
+
+            <legend>Best days to contact you:</legend>
+            <input type="checkbox" id="monday" name="availability" value="monday">
+            <label for="monday">Monday</label>
+            <input type="checkbox" id="tuesday" name="availability" value="tuesday">
+            <label for="tuesday">Tuesday</label>
+            <input type="checkbox" id="wednesday" name="availability" value="wednesday">
+            <label for="wednesday">Wednesday</label>
+            <input type="checkbox" id="thursday" name="availability" value="thursday">
+            <label for="thursday">Thursday</label>
+            <input type="checkbox" id="friday" name="availability" value="friday">
+            <label for="friday">Friday</label><br />
+            <input type="submit" value="Send Request">
+
+            <hr />
+            <footer>
+                <p class="text-center">123 First Street, Minneapolis, MN 55555</p>
+                <p class="text-center">(612)-123-4567</p>
+                <hr />
+            </footer>
+    </body>
+</html>
